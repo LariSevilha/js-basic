@@ -1,8 +1,5 @@
-let numero1
-let numero2
-
-numero1 = parseFloat(prompt("Digite um valor: " ))
-numero2 = parseFloat(prompt("Digite outro valor: " ))
+let numero1 = parseFloat(prompt("Digite um valor: " ))
+let numero2 = parseFloat(prompt("Digite outro valor: " ))
 
 function adicao(numero1, numero2) {
     let result = numero1 + numero2
@@ -28,3 +25,4 @@ document.write(`Adição: ${adicao(numero1, numero2)}<br>`);
 document.write(`Subtração: ${subtracao(numero1, numero2)}<br>`);
 document.write(`Divisão: ${divisao(numero1, numero2)}<br>`);
 document.write(`Multiplicação: ${multiplicacao(numero1, numero2)}<br>`);
+ 
